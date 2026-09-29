@@ -6,7 +6,7 @@ def add(a, b):
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("Arguments must be numbers")
                 
-    return a + b
+    return a + b +1 # broke this for testing
                     
                     
 def multiply(a, b):
